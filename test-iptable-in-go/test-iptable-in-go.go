@@ -182,5 +182,5 @@ func main() {
     }, table.Chains...)
     
     action2 := table.ProcessPacketThroughTable(packet)
-    fmt.Printf("Packet action 1 is: %s\n", action2)
+    fmt.Printf("Packet action 2 is: %s\n", action2)
 }
